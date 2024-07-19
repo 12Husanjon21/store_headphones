@@ -1,0 +1,25 @@
+.button {
+    background-color: #0BA42D;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 2.2rem;
+    width: 100%;
+    padding: 1em ;
+    column-gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.button:hover {
+    box-shadow: 10px 10px 15px rgba(28, 199, 51, 0.66);
+
+}
+
+.button:active {
+    background-color: rgb(16, 180, 27, 0.7);
+}

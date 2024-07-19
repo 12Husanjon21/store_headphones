@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    text-align: center;
+    background-image: url("../../../public/gameG.png");
+    animation: fade-in 1s;
+  }
+  
+  .title {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #f7f7f7;
+    margin: 0;
+    animation: scale-up 1s;
+  }
+  
+  .message {
+    font-size: 2rem;
+    color: #f7f7f7;
+    margin: 20px 0;
+    animation: slide-up 1s;
+  }
+  
+  .home_btn {
+    font-size: 1.6rem;
+    color: #f7f7f7;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #0BA42D;
+    border: 2px solid #0eba39;
+    padding: 1em 3em;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #06bf2e;
+      color: #fff;
+      box-shadow: 10px 10px 15px rgba(28, 199, 51, 0.66);
+    }
+    &:active {
+      background-color: rgb(16, 180, 27, 0.7);
+  }
+  
+  }
+  
+  /* Animations */
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-500px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

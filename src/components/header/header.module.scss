@@ -1,0 +1,110 @@
+
+$bg-color: #0D2612;
+
+.image {
+    width: 48px;
+    height: 30px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 67.25px;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 107px;
+    column-gap: 3.2rem;
+}
+
+
+.phone {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+p {
+    color: #ffffff;
+}
+
+.phoneBox {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1.7rem;
+}
+
+.lent {
+    width: 2px;
+    height: 30px;
+    background-color: #14FF00;
+}
+
+
+.centerHead {
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+    .shop {
+        cursor: pointer;
+    }
+}
+
+
+.rightHeader {
+    display: flex;
+    align-items: center;
+    column-gap: 4.4rem;
+    .lang {
+        display: flex;
+        align-items: center;
+        column-gap: 1.1rem;
+        .arrow {
+            color: #ffffff;
+            font-size: x-large;
+            cursor: pointer;
+        }
+        .p {
+            cursor: pointer;
+        }
+        
+        .image_USA {
+            margin-top: 1rem;
+            width: 28px;
+            height: 20px;
+        }
+    }
+    
+    
+    .global {
+        display: flex;
+        align-items: center;
+        column-gap: 0.8rem;
+        .globe {
+            color: #ffffff;
+            font-size: x-large;
+            cursor: pointer;
+        }
+    }
+}
+
+.lan {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1140px) {
+    .centerHead {
+        display: none;
+    }
+    
+  }
+
+  @media only screen and (max-width: 735px) {
+    .phoneBox p,
+    .phone {
+      display: none;    
+    }
+    
+  }

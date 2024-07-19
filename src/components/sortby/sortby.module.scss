@@ -1,0 +1,54 @@
+
+.greenBox {
+    color: #0BA42D;
+    padding: 0 73px;
+    width: inherit;
+    background-color: #D5F8CF;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .sort {
+        display: flex;
+        align-items: center;
+        margin-top: 0.3rem;
+      }
+      .sortBtn {
+          border: none;
+          background-color: inherit;
+          padding: 0;
+          display: flex;
+          cursor: pointer;
+          align-items: center;
+          margin-left: 13px;
+        }
+    }
+    .sortBox {
+        display: flex;
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+    .sortPrices {
+      display: flex;
+      flex-direction: column;
+      // margin-left: 1.5rem;
+      margin-top: 10px;
+      margin-bottom: -63px;
+      .sort > button {
+        padding: 0.3em 1em;
+        border-radius: 5px;
+        background-color: rgb(199, 243, 192);
+        border: 1px solid #7be06c;
+        button, h3 {
+          color: #0BA42D;
+          background-color: none;
+        }
+      }
+    }
+    
+    .top-btn:active {
+      margin-top: 5px;
+    }

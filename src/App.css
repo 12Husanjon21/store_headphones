@@ -1,0 +1,117 @@
+
+
+.navbar {
+  padding: 39px 41px;
+  margin-inline: auto;
+}
+
+.navbar a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+  
+
+
+.navbar a.active {
+  font-weight: 500;
+  color: #0BA42D;
+}
+
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 1.5rem;
+
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+
+.gamegeek {
+  width: 189px;
+  height: 26px;
+  cursor: pointer;
+}
+
+
+.link {
+  font-weight: 500;
+  font: 1.6rem;
+
+}
+
+.search-btn {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: large;
+  border: none;
+}
+
+.arrow {
+  font-size: x-large;
+}
+
+aside h2 {
+  margin: 0;
+  padding-top: 2.7rem;
+  border-top: 2px dashed black;
+}
+
+h3,
+h4 {
+  color: #0BA42D;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.sortBtn {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.arrow-down {
+  color: #0BA42D;
+  font-size: x-large;
+  margin-top: -0.5rem;
+}
+
+.categories {
+  font-size: 4.5rem;
+  text-align: center;
+  margin-top: 10rem;
+  /* margin-block: auto; */
+  font-weight: 600;
+  color: #0BA42D;
+}
+
+
+@media only screen and (max-width: 970px) {
+  .navbar .header-link {
+    display: none;
+  }
+  
+}
+
+.about {
+  color: black;
+  display: flex;
+  justify-content: center;
+}

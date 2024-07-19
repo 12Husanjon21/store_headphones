@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.cart-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: rgb(135, 135, 135);
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 1rem;
+}
+.navbar{
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
